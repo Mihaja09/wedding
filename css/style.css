@@ -1,0 +1,292 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #ff99ff;
+  background-image: linear-gradient(to bottom right,#d48893,#f1a3ad,#ffbec9,#f1a3ad,#d48893,#d48893, #f1a3ad,#ffbec9,#f1a3ad,#d48893); 
+  background-repeat: no-repeat;
+}
+
+/*Header*/
+.header h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 0 10px #b76e79;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  margin: 0;
+  padding: 5px;
+  background-color: #f1a3ad;
+  background-image: linear-gradient(to right,#b76e79,#f1a3ad,#ffbec9,#f1a3ad,#b76e79); 
+}
+
+/*Barre de navigation*/
+.nav {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #a6a6a6;
+  background-image: linear-gradient(to bottom right,#a6a6a6,#bfbfbf,#a6a6a6); 
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 5px #666;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  font-size: 20px;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #999;
+}
+
+.active {
+  background-color: #d07c88;
+}
+
+/*paragraphe 1, 2, 3 + image */
+
+.descri_1, .descri_2, .descri_3 {
+  padding: 10px;
+  overflow: auto;
+}
+
+.text04 p, .text17 p, .text05 p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+.gallery_1, .gallery_3 {
+  margin: 10px;
+  float: right;
+  width: 300px;
+  box-shadow: 0 0 3px #b76e79;
+  background-color: #b76e79;
+  background-image: linear-gradient(to right,#d48893,#ffbec9,#d48893);
+}
+
+.gallery_1:hover, .gallery_2:hover, .gallery_3:hover {
+  box-shadow: 0 0 7px #b76e79;
+}
+
+.gallery_1 img, .gallery_2 img, .gallery_3 img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 1px 1px #ab5461;
+}
+
+.desc04, .desc17, .desc05 {
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  text-shadow: 0 0 3px #b76e79;
+  font-weight: 600;
+}
+
+/*paragraphe 2 float left + image */
+
+.gallery_2 {
+  margin: 10px;
+  float: left;
+  width: 300px;
+  box-shadow: 0 0 3px #ab5461;
+  background-color: #d48893;
+  background-image: linear-gradient(to right,#d48893,#ffbec9,#d48893);
+}
+
+
+/*Formulaire de contact*/
+
+input[type=text], input[type=tel], input[type=email], input[type=password] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #b76e79;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #ffe6ff; 
+  outline: none;
+}
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus, input[type=password]:focus{
+  border: 2px solid #b76e79;
+}
+
+input[type=submit] {
+  width: 250px;
+  background-color: #d48893;
+  background-image: linear-gradient(to bottom right, #b76e79,#d48893,#b76e79);
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 14px 20px;
+  margin-top: 140px;
+  margin-left: 105px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px black;
+}
+
+input[type=submit]:hover {
+  background-color: #89434e;
+  background-image: linear-gradient(to bottom right, #b76e79,#d48893,#b76e79);
+  box-shadow: 0px 2px 1px #89434e;
+}
+
+label{
+display: inline-block;
+width: 100px;
+font-weight: 700;
+font-size: 16px;
+color: #89434e;
+}
+
+textarea{
+margin-bottom: -125px;
+margin-top: 8px;
+width: 500px;
+height: 150px;
+padding: 12px 20px;
+display: inline-block;
+border: 1px solid #b76e79;
+border-radius: 4px;
+box-sizing: border-box;
+resize: none; 
+background-color: #ffe6ff; 
+outline: none;
+}
+textarea:focus{
+border: 2px solid #b76e79;
+}
+.T2{
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 5px #89434e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.formul{
+  margin-left: 10px;
+}
+
+.info{
+  box-shadow: 0 2px 3px #b76e79;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 350px;
+  background-color: #aeb2b8;
+  background-image: linear-gradient(-30deg,#959ba3, #c7c9cb, #959ba3);
+  font-size: 16px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1;
+}
+
+.info:hover {
+  background-color: #959ba3;
+  background-image: linear-gradient(-30deg, #959ba3,#c7c9cb,#aeb2b8,#c7c9cb);
+  box-shadow: 0 2px 2px #89434e;
+}
+
+.gw{
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 0 5px #d7d7d8;
+}
+
+/*A propos*/
+.history, .objective {
+  padding: 10px;
+  overflow: auto;
+}
+/*.abo_gal{
+  margin: 10px;
+  float: right;
+  width: 300px;
+}*/
+.abo_gal img {
+  margin: 10px;
+  width: 300px;
+  float: right;
+  box-shadow: 0 0 3px #b76e79;    
+}
+.abo_gal img:hover{
+box-shadow: 0 0 5px #89434e; 
+}
+.abo-text p{
+  line-height: 2;
+}
+.about {
+font-size: 25px;
+color: #89434e;
+border-bottom: 1px solid #89434e;
+}
+
+/*Page produits*/
+
+.glr {
+  margin: 10px;
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-color: #d48893;
+  background-image: linear-gradient(to right,#b76e79,#ffbec9,#b76e79);
+  text-align:center;
+  overflow: hidden;
+  box-shadow: 0 0 3px #b76e79;
+}
+
+.glr:hover{
+  box-shadow: 0 0 7px #b76e79;
+}
+
+.glr img {
+  height: 220px;
+}
+
+.desc_gal {
+  padding: 3px;
+  margin-top: -3px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 3px #b76e79;
+  border-top: 2px solid #b76e79;
+  font-weight: 600;
+}
+
+.titre2 {
+clear: left;
+color: #89434e;
+font-size: 25px;
+padding-top: 25px;
+border-bottom: 1px solid #9a4c57;
+}
+
+/*Footer*/
+footer p {
+color: white;
+text-align: center;
+padding: 0;
+margin-bottom: 0;
+margin-top: 50px;
+padding: 5px;
+background-color: #9a4c57;
+clear: left;
+}
